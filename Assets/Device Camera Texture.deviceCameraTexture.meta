@@ -4,9 +4,5 @@
   ImporterName: DeviceCameraTextureImporter
   PrimaryAsset: !<reference> 996c6f4e-b2ad-4117-9e3e-3db82e6e97f5
   PackageType: CannotBeUnpacked
-  AssetDataMap:
-    {}
-  ImporterSettings: !<AssetImporterSettings/5a579f11-34f7-4e26-94b6-0d08ebef4aa8>
-    {}
-  CompressionSettingsMap:
-    {}
+  AssetDataMap: {}
+  ImporterSettings: !<AssetImporterSettings/5a579f11-34f7-4e26-94b6-0d08ebef4aa8> {}

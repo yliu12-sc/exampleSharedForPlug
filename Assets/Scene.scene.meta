@@ -4,9 +4,5 @@
   ImporterName: SceneImporter
   PrimaryAsset: !<reference> 0a1ccb1a-fe88-4fbb-9883-e3af3c75fd99
   PackageType: CannotBeUnpacked
-  AssetDataMap:
-    {}
-  ImporterSettings: !<AssetImporterSettings/f51af60c-8cd8-478a-ba06-000b1978b072>
-    {}
-  CompressionSettingsMap:
-    {}
+  AssetDataMap: {}
+  ImporterSettings: !<AssetImporterSettings/f51af60c-8cd8-478a-ba06-000b1978b072> {}

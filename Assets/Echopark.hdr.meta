@@ -5,10 +5,7 @@
   ImporterName: EnvmapTextureImporter
   PrimaryAsset: !<reference> 00000000-0000-0000-0000-000000000000
   PackageType: CanBeUnpacked
-  AssetDataMap:
-    {}
+  AssetDataMap: {}
   ImporterSettings: !<EnvmapImporterSettings/b8d11a17-66f3-4875-85df-a5e2c8f4cbb5>
     ImageQuality: Normal
     SpecularImageResolution: Medium
-  CompressionSettingsMap:
-    {}

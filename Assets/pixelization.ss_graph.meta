@@ -7,8 +7,5 @@
   AssetDataMap:
     {}
   ImporterSettings: !<GraphImporterSettings/82886aa3-7117-4940-bcfd-16d2e9973c67>
-    NGSCommit: ""
-    CrossCompilerCommit: ""
-    NGSSystemHash: c8fa8544851ae7333f000620bcfab8f4
-  CompressionSettingsMap:
-    {}
+    NGSSystemHash: 3344f10a996345b1db3e25910e0382de
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
