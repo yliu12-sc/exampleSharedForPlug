@@ -1,0 +1,52 @@
+- !<Material/57921836-598a-42cb-adbe-bbbd6e07d4c1>
+  PassesInfo:
+    - !<own> 24486eb4-69f4-477c-bd4c-14719ede4f63
+  PackagePath: ""
+- !<PassInfo/24486eb4-69f4-477c-bd4c-14719ede4f63>
+  DepthWrite: false
+  DepthTest: false
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0, y: 0}
+  FrustumCulling: Auto
+  FrustumCullPad: 0
+  InstanceCount: 1
+  Defines:
+    []
+  BlendMode: Disabled
+  Properties:
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    pixelOffset:
+      typeIdx: 1
+      value: 96.74
+    screenTexture:
+      typeIdx: 9
+      value:
+        id: c23bf3ef-d54e-437d-a842-9545e6f3f783
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: ClampToEdge
+          wrapModeV: ClampToEdge
+          wrapModeW: ClampToEdge
+          borderColor: {x: 1, y: 1, z: 1, w: 1}
+          mipmaps: false
+    screenTextureBorderColor:
+      typeIdx: 5
+      value: {x: 1, y: 1, z: 1, w: 1}
+    screenTextureDims:
+      typeIdx: 5
+      value: {x: 1, y: 1, z: 1, w: 1}
+    screenTextureTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1, y: 0, z: 0}
+        1: {x: 0, y: 1, z: 0}
+        2: {x: 0, y: 0, z: 1}
+    screenTextureUvMinMax:
+      typeIdx: 5
+      value: {x: 1, y: 1, z: 1, w: 1}
+  Pass: !<reference> 1de86756-f440-46d5-b401-201fead574ba

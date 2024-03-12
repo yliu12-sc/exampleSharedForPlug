@@ -1,0 +1,63 @@
+Collapsed State:
+  group:
+    Base.png:
+      type: bool
+      value: true
+      options: 0
+    Device Camera Texture.deviceCameraTexture:
+      type: bool
+      value: false
+      options: 0
+    Echopark.hdr:
+      type: bool
+      value: false
+      options: 0
+    Echopark.hdr/Diffuse:
+      type: bool
+      value: false
+      options: 0
+    Echopark.hdr/Specular:
+      type: bool
+      value: false
+      options: 0
+    MaterialParams.png:
+      type: bool
+      value: true
+      options: 0
+    Normal.png:
+      type: bool
+      value: true
+      options: 0
+    PBR.mat:
+      type: bool
+      value: true
+      options: 0
+    Pixelization.mat:
+      type: bool
+      value: true
+      options: 0
+    Render Target.renderTarget:
+      type: bool
+      value: false
+      options: 0
+    Scene.scene:
+      type: bool
+      value: false
+      options: 0
+    ScreenTexture.screenTexture:
+      type: bool
+      value: true
+      options: 0
+    Sphere.mesh:
+      type: bool
+      value: true
+      options: 0
+    pbr.ss_graph:
+      type: bool
+      value: true
+      options: 0
+    pixelization.ss_graph:
+      type: bool
+      value: true
+      options: 0
+  options: 4

@@ -1,0 +1,148 @@
+- !<AssetCache/b38f7cf4-2e4d-484f-bde4-2daca562ab08>
+  AssetFiles:
+    65883e52-32c4-4931-9efb-000b954c1f02: b7b6dec5-8ffd-4920-abaf-6f96cb61d7f5/a9cc6f6e8c5dabff1a0d26856ad639b0/Data/pbr.ss_graph
+  AssetCurrentFiles:
+    65883e52-32c4-4931-9efb-000b954c1f02: b7b6dec5-8ffd-4920-abaf-6f96cb61d7f5/a9cc6f6e8c5dabff1a0d26856ad639b0/Data/pbr.ss_graph
+  Assets:
+    - !<ShaderGraphPass/65883e52-32c4-4931-9efb-000b954c1f02>
+      ShaderPath: b7b6dec5-8ffd-4920-abaf-6f96cb61d7f5/a9cc6f6e8c5dabff1a0d26856ad639b0/Data/pbr.glsl
+      Defines:
+        []
+      Properties:
+        {}
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Center_N016:
+          typeIdx: 3
+          value: {x: 0, y: 0}
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1
+        Port_Emissive_N006:
+          typeIdx: 4
+          value: {x: 0, y: 0, z: 0}
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1, y: 1, z: 1, w: 1}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1, y: 1, z: 1, w: 1}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1, y: 1, z: 1, w: 1}
+        Port_LODValue_N001:
+          typeIdx: 1
+          value: 0
+        Port_LODValue_N002:
+          typeIdx: 1
+          value: 0
+        Port_LODValue_N009:
+          typeIdx: 1
+          value: 0
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0, y: 1, z: 0}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0, y: 0, z: 0}
+        Port_SpecularAO_N006:
+          typeIdx: 4
+          value: {x: 1, y: 1, z: 1}
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0, y: 1, z: 0}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0, y: 0, z: 0}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0, y: 0, z: 1}
+      PassUiData: !<PassUiData/786a62d7-28ed-4d35-b72b-84a46bceebac>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER 1
+          - SC_ENABLE_RT_RECEIVER 1
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Base Texture
+            mType: Property
+            mName: baseTex
+            mWidget: texture_group
+            mHint: "Property: baseTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Normal Texture
+            mType: Property
+            mName: normalTex
+            mWidget: texture_group
+            mHint: "Property: normalTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Material Params
+            mType: Property
+            mName: materialParamsTex
+            mWidget: texture_group
+            mHint: "Property: materialParamsTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: UV Scale
+            mType: Property
+            mName: uvScale
+            mWidget: spinbox
+            mHint: "Property: uvScale"
+            mMin: ~
+            mMax: ~
+            mStep: 0.01
+            mDefaultVal: 1
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0
+            mMax: 1
+            mStep: 0.001
+            mDefaultVal: 0.5
+            mValues:
+              []
+      PackagePath: ""
+  SourceHash: a9cc6f6e8c5dabff1a0d26856ad639b0
+  FileHash: 8a50b91a56b9f40273a6717857e39756

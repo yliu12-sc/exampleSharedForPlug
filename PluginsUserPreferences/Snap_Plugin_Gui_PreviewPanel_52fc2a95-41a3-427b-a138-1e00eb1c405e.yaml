@@ -1,0 +1,45 @@
+backCameraMultimedia:
+  type: string
+  value: /Applications/Lens Studio.app/Contents/MacOS/../Resources/PreviewResources.bundle/Video/World/Beach.mp4
+  options: 4
+cameraType:
+  type: int
+  value: 0
+  options: 4
+customSources:
+  type: "std::vector<Es::Path>"
+  value:
+    size: 0
+  options: 4
+frameRate:
+  type: int
+  value: 30
+  options: 4
+frontCameraMultimedia:
+  type: string
+  value: /Applications/Lens Studio.app/Contents/MacOS/../Resources/PreviewResources.bundle/Video/Idle/Idle.mp4
+  options: 4
+mirrorHorizontally:
+  type: bool
+  value: false
+  options: 4
+previewSource:
+  type: string
+  value: /Applications/Lens Studio.app/Contents/MacOS/../Resources/PreviewResources.bundle/Video/Idle/Idle.mp4
+  options: 4
+previewType:
+  type: string
+  value: Multimedia
+  options: 4
+recordInput:
+  type: bool
+  value: false
+  options: 4
+recordTrackingData:
+  type: bool
+  value: false
+  options: 4
+simulatedDevice:
+  type: string
+  value: No Simulation
+  options: 4

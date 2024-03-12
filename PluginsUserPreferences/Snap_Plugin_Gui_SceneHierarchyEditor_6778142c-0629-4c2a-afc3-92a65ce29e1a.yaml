@@ -1,0 +1,32 @@
+PinnedEntities:
+  type: "std::vector<Es::Uuid>"
+  value:
+    size: 0
+  options: 4
+Collapsed State:
+  group:
+    04833dc7-4974-4ce0-a235-1053367cad8e:
+      type: bool
+      value: false
+      options: 0
+    27e0af83-40db-4ab6-a35d-2df06e1ae9e5:
+      type: bool
+      value: false
+      options: 0
+    3e7c2195-4744-4350-8fbf-f15a3dd72ded:
+      type: bool
+      value: false
+      options: 0
+    b624b172-fcd2-4410-8f52-8c11b9f7c0b2:
+      type: bool
+      value: true
+      options: 0
+    c0dfa04f-8622-4d8d-a36b-0ab5e7a190f4:
+      type: bool
+      value: false
+      options: 0
+    cde6cb09-43b5-4680-b2ea-ecbb16fb38e3:
+      type: bool
+      value: false
+      options: 0
+  options: 4
